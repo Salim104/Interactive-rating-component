@@ -46,7 +46,7 @@ body {
   font-family: "Overpass", sans-serif;
 }
 
-.container {
+.container-1 {
   background-color: var(--Dark-Blue);
   padding: 20px;
   border-radius: 21px;
@@ -104,4 +104,12 @@ body {
 
 .active {
   background-color: var(--Orange);
+}
+
+/* ==================================== submited container-2 ====================== */
+
+.container-2 {
+  background-color: var(--Dark-Blue);
+  padding: 20px;
+  border-radius: 21px;
 }
