@@ -47,7 +47,7 @@ body {
 }
 
 .container-1 {
-  display: none;
+  display: block;
   background-color: var(--Dark-Blue);
   padding: 20px;
   border-radius: 21px;
@@ -110,7 +110,7 @@ body {
 /* ==================================== submited container-2 ====================== */
 
 .container-2 {
-  display: block;
+  display: none;
   background-color: var(--Dark-Blue);
   padding: 20px;
   border-radius: 21px;
