@@ -8,8 +8,10 @@ let numbers = document.querySelectorAll(".number");
 let outNumber = document.querySelector(".out");
 
 
-let value = 5;
+let value = 3;
 btn.addEventListener("click",containerShow)
+
+
 
 
 function containerShow(e) {
@@ -32,6 +34,7 @@ function handleRatingBtn(eve){
   })
 
   eve.target.classList.add("active");
+//   outNumber.innerHTML = value;
   
 }
 
