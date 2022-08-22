@@ -34,7 +34,7 @@ function handleRatingBtn(eve){
   })
 
   eve.target.classList.add("active");
-//   outNumber.innerHTML = value;
+  outNumber.innerHTML = value;
   
 }
 
