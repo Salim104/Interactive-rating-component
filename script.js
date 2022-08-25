@@ -32,10 +32,8 @@ function handleRatingBtn(eve){
   numbers.forEach(btn => {
       btn.classList.remove("active");
   })
-
   eve.target.classList.add("active");
-  outNumber.innerHTML = value;
-  
+    value = eve.target.innerHTML
 }
 
 
