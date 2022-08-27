@@ -12,8 +12,6 @@ let value = 3;
 btn.addEventListener("click",containerShow)
 
 
-
-
 function containerShow(e) {
    e.preventDefault();
     container_1.style.display = "none";
@@ -23,8 +21,7 @@ function containerShow(e) {
 }
 
  numbers.forEach(btn => {
-      btn.addEventListener('click',handleRatingBtn)
-     
+      btn.addEventListener('click',handleRatingBtn) 
  })
   
 function handleRatingBtn(eve){
@@ -33,7 +30,7 @@ function handleRatingBtn(eve){
       btn.classList.remove("active");
   })
   eve.target.classList.add("active");
-    value = eve.target.innerHTML
+  value = eve.target.innerHTML
 }
 
 
