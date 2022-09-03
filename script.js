@@ -8,7 +8,7 @@ let numbers = document.querySelectorAll(".number");
 let outNumber = document.querySelector(".out");
 
 
-let value = 3;
+let value = 4;
 btn.addEventListener("click",containerShow)
 
 
